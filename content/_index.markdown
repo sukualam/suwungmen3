@@ -6,4 +6,4 @@ title: Home
 
 # Blog suwung
 ## ditulis secara wang-xi-nawang
-nb: kefanaan wang-xi-nawang dapat ditelaah secara teposeliro
+nb: kefanaan wang-xi-nawang dapat ditelaah secara teposeliro ~
