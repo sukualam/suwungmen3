@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+<img src="https://www.gravatar.com/avatar/f4e0d3e84e0d1aea96408e07dd2b09ba" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />
 
 # Blog suwung
 ## ditulis secara wang-xi-nawang
