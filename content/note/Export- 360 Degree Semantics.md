@@ -9,6 +9,8 @@ tags:
 slug: testing-ulysses
 ---
 
+_teks di bawah ini copas:)_ disini ane coba njajal pake editor teks ulysses for iOS. Jadi aplikasi ini memudahkan nulis markdown. maklum ane gak dan blum mudeng cara nulis pake format markdown. Nah aplikasi ulysses ini mantab jiwa guys, memudahkan nulis markdown. ada tombol2nya, bukan wysiwyg, tapi semacam snippet. Jadi ane coba nulis tebel nieh **tebel** ,, tebel kan guys.. kalo di markdown supaya bisa tebel aslinya nulisnya \*\*tebel\*\* begene... aplikasinya trial tapi guys, 2 minggu, setelah itu kudu beli.. hadehh.. kabeh aplikasi cen ngono nek ios guys... tapi gak papa guys, yg penting bisa nyimpen,, kalo gak bisa disave di icloud setelah itu ya save di blog ini ane...
+
 ## Export: 360 Degree Semantics
 
 Now for the fun part: Ulysses can output your writing to a host of standard formats, such as Plain and Rich Text, HTML, ePub, PDF and DOCX. It does so by translating your _plain text input_ based on the definition of the minimal markup. If your brain starts to hurt, here’s a simple example…
