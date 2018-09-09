@@ -19,18 +19,33 @@
 	</header>
 	
 	<main role="main">
-{{ range (where .Data.Pages ".Params.hidefromhome" "!=" "true") }}
+{{ range .Paginator.Pages }}
 
 			<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
 
 {{ end }}
-	</main>
+<br>
+{{ $pag := $.Paginator }}
+		<span style="font-weight:bold">hlm. {{$pag.PageNumber}}/{{$pag.TotalPages}}</span>
+{{ if gt $pag.TotalPages 1 }}
 
+	{{ if not $pag.HasPrev }}
+	{{ else }}
+
+	<a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" class="page-link" aria-label="Previous">-</a>
+	{{ end }}
+	{{ if not $pag.HasNext }}
+	{{ else }}
+    <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" class="page-link" aria-label="Next">+</a>
+	{{ end }}
+{{ end }}
+	</main>
 	<footer role="contentinfo">
 		<div class="hr"></div>
 		<div class="footer-link">
-			<a href="https://suwung.men">suwung.men</a>
+		
+			<a href="https://suwung.men">suwung.men</a> | <a href="mailto:sukualam@gmail.com">kontak</a>
 		</div>
 		<div class="copyright">Copyleft 2018</div>
 	</footer>

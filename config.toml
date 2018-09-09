@@ -2,3 +2,6 @@ baseurl = "/"
 languageCode = "en-us"
 title = "suwung"
 theme = "BeyondNothing"
+Paginate = 30
+PaginatePath = "hlm"
+
