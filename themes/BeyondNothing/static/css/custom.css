@@ -25,14 +25,14 @@ footer {
 
 main {
   margin: 5rem 0;
+  
 }
 
 .container a:link, .container a:visited {
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
-    border-bottom: 3px solid #FAFF63;
-	box-shadow: inset 0 -4px 0 #FAFF63;
+    border-bottom: 3px solid #000
 	}
 .container a:hover, .container a:active {
 	font-weight: bold;
@@ -51,6 +51,7 @@ ul {
 	padding: 8px 0px 9px 45px;
 	margin: 0px 0px 1.25em 30px;
 	line-height:1.25;
+	
 	}
 
 hr {
